@@ -1,4 +1,4 @@
-FROM sonarsource/sonar-scanner-cli:4.7
+FROM sonarsource/sonar-scanner-cli:5.0.1
 
 COPY ./entrypoint.sh /entrypoint.sh
 
